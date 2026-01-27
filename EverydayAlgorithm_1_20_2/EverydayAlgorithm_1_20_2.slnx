@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="EverydayAlgorithm_1_20_2/EverydayAlgorithm_1_20_2.vcxproj" />
+</Solution>
