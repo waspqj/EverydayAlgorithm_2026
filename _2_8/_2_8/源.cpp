@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//dfs——数独
 int nums[10][10];
 bool row[10][10] = { false };
 bool col[10][10] = { false };
@@ -77,4 +78,40 @@ int main()
     }
 
     return 0;
+}
+//这样处理好点
+bool dfs(int x, int y)
+{
+    if (y == 9)
+    {
+        ++x;
+        y = 0;
+    }
+    if (x == 9)
+        return true;
+
+    if (nums[x][y])
+    {
+        return dfs(x, y + 1);
+    }
+
+    for (int n = 1; n < 10; ++n)
+    {
+        if (row[x][n]) continue;
+        if (col[y][n]) continue;
+        if (nine[x / 3][y / 3][n]) continue;
+
+        nums[x][y] = n;
+        row[x][n] = true;
+        col[y][n] = true;
+        nine[x / 3][y / 3][n] = true;
+
+        if (dfs(x, y + 1)) return true;
+
+        nums[x][y] = 0;
+        row[x][n] = false;
+        col[y][n] = false;
+        nine[x / 3][y / 3][n] = false;
+    }
+    return false;
 }
