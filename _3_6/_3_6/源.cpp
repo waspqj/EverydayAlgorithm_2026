@@ -53,6 +53,42 @@ void bfs()
     }
 }
 
+//2）第二版本——改了些小错误，依旧错
+void bfs()
+{
+    memset(road, -1, sizeof(road));
+    deque<PII> q;
+    q.emplace_back(x1, y1);
+    road[x1][y1] = 0;
+
+    while (q.size())
+    {
+        auto cur = q.front(); q.pop_front();
+        int cx = cur.first, cy = cur.second;
+        //在第一个一定是最小了，可以退出——剪枝
+        if (cx == x2 && cy == y2) return;
+
+        for (int i = 0; i < 4; ++i)
+        {
+            int nx = cx + x[i], ny = cy + y[i];
+            if (nx < 1 || nx > n || ny < 1 || ny > m) continue;
+            //提前求权值
+            int w = (a[cx][cy] == a[nx][ny] ? 0 : 1);
+            if (road[nx][ny] == -1)
+            {
+                road[nx][ny] = road[cx][cy] + w;
+
+                //01BFS
+                if (w) q.emplace_back(nx, ny);
+                else q.emplace_front(nx, ny);
+            }
+            else if (road[nx][ny] > road[cx][cy] + w)
+            {//松弛操作
+                road[nx][ny] = road[cx][cy] + w;
+            }
+        }
+    }
+}
 int main()
 {
     while (cin >> n >> m)
