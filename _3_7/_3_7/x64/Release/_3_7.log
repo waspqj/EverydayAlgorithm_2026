@@ -1,0 +1,134 @@
+﻿  TestFor3_6.cpp
+C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(13,15): error C2365: “y1”: 重定义；以前的定义是“函数”
+      D:\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_math.h(1024,76):
+      参见“y1”的声明
+  
+C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(22,16): error C2107: 非法索引，不允许间接寻址
+C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(21,24): error C4996: 'y1': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _y1. See online help for details.
+C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13): error C2679: 二元“>>”: 没有找到接受“overloaded-function”类型的右操作数的运算符(或没有可接受的转换)
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(313,39):
+      可能是“std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“std::basic_streambuf<char,std::char_traits<char>> *”
+              C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,22):
+              没有使该转换得以执行的上下文
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(309,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“void *&”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(305,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“long double &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(301,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“double &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(297,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“float &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(293,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“unsigned __int64 &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(289,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“__int64 &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(285,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“unsigned long &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(281,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“long &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(277,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“unsigned int &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(269,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“int &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(265,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“unsigned short &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(233,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“short &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(229,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“bool &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(200,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“std::ios_base &(__cdecl *)(std::ios_base &)”
+              C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,22):
+              在匹配目标类型的范围内没有具有该名称的函数
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(195,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)”
+              C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,22):
+              在匹配目标类型的范围内没有具有该名称的函数
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(190,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”: 无法将参数 2 从“double (__cdecl *)(double)”转换为“std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &)”
+              C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,22):
+              在匹配目标类型的范围内没有具有该名称的函数
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(928,9):
+      或    “_Istr &&std::operator >>(_Istr &&,_Ty &&)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “_Istr &&std::operator >>(_Istr &&,_Ty &&)”: 无法推导“__formal”的 模板 参数
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(927,102):
+              “<template-parameter>”: 无法创建指向引用的指针
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(915,31):
+      或    “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,22):
+          “初始化”: 无法从“double (__cdecl *)(double)”转换为“unsigned char &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(909,31):
+      或    “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,22):
+          “初始化”: 无法从“double (__cdecl *)(double)”转换为“signed char &”
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(886,32):
+      或    “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)”: 模板 参数“_Elem”不明确
+              C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+              可能是“double (double)”
+              C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+              或    “char”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)”: 无法从“double (double)”推导出“_Elem &”的 模板 参数
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(863,31):
+      或    “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char (&)[_Size])”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char (&)[_Size])”: 无法从“double (double)”推导出“unsigned char (&)[_Size]”的 模板 参数
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(857,31):
+      或    “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char (&)[_Size])”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char (&)[_Size])”: 无法从“double (double)”推导出“signed char (&)[_Size]”的 模板 参数
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\istream(851,32):
+      或    “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem (&)[_Size])”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem (&)[_Size])”: 无法从“double (double)”推导出“_Elem (&)[_Size]”的 模板 参数
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3483,32):
+      或    “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“double (double)”推导出“std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\cstddef(43,27):
+      或    “std::byte std::operator >>(const std::byte,const _IntType) noexcept”
+          C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+          “std::byte std::operator >>(const std::byte,const _IntType) noexcept”: 无法推导“__formal”的 模板 参数
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\cstddef(36,39):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      C:\Users\was\Desktop\everyday-algorithm_2026\_3_7\_3_7\TestFor3_6.cpp(62,13):
+      尝试匹配参数列表“(std::basic_istream<char,std::char_traits<char>>, overloaded-function)”时
+  
