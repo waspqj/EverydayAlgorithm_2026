@@ -29,3 +29,16 @@ bin-release/
 *.
 *.
 *.
+
+# VS新增
+*.obj
+*.log
+*.recipe
+*.ilk
+*.tlog
+*.lastbuildstate
+*.txt
+*.idb
+*.pdb
+*.tlog/unsuccessfulbuild
+*.exe
