@@ -158,3 +158,61 @@ ListNode* FindFirstCommonNode(ListNode* pHead1, ListNode* pHead2)
     return cur1;
 }
 
+// 链表加法
+
+ListNode* addInList(ListNode* head1, ListNode* head2)
+{
+    // 1.翻转
+    L a = nullptr, b = head1, c = head1->next;
+    while (b)
+    {
+        b->next = a;
+        a = b;
+        b = c;
+        if (c != nullptr) c = c->next;
+    }
+    head1 = a;
+    a = nullptr, b = head2, c = head2->next;
+    while (b)
+    {
+        b->next = a;
+        a = b;
+        b = c;
+        if (c != nullptr) c = c->next;
+    }
+    head2 = a;
+    // 2.相加
+    L cur = nullptr;
+    int car = 0;
+    while (head1 && head2)
+    {
+        int sum = head1->val + head2->val + car;
+        L tmp = head1;
+        head1 = head1->next;
+        head2 = head2->next;
+
+        tmp->val = sum % 10;
+        car = sum / 10;
+
+        tmp->next = cur;
+        cur = tmp;
+    }
+    if (head2) head1 = head2;
+    while (head1)
+    {
+        int sum = head1->val + car;
+        L tmp = head1;
+        head1 = head1->next;
+        tmp->val = sum % 10;
+        car = sum / 10;
+        tmp->next = cur;
+        cur = tmp;
+    }
+    L head = cur;
+    if (car)
+    {
+        head = new ListNode(car);
+        head->next = cur;
+    }
+    return head;
+}
