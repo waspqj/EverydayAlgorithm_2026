@@ -1,7 +1,10 @@
+#include<vector>
+using namespace std;
 
 class Solution {
 public:
     // 移动零
+    // 1)记录0的位置,一次性移动 
     void moveZeroes(vector<int>& nums)
     {
         int n = nums.size();
@@ -24,5 +27,25 @@ public:
 
         for (int i = tmp[count] + 1; i < n; ++i) nums[i - count] = nums[i];
         for (int i = n - count; i < n; ++i) nums[i] = 0;
+    }
+
+    //2) 双指针, 用双指针划分区间
+    void moveZeroes(vector<int>& nums)
+    {
+        int n = nums.size();
+        // [dest, cur)中之间都为0
+        int dest = 0, cur = 0;
+        while (cur < n)
+        {
+            if (nums[cur] == 0)
+            {
+                ++cur;
+            }
+            else
+            {
+                swap(nums[dest], nums[cur]);
+                ++dest, ++cur;
+            }
+        }
     }
 };
