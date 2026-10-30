@@ -42,3 +42,16 @@ bin-release/
 *.pdb
 *.tlog/unsuccessfulbuild
 *.exe
+# Visual Studio 本地缓存 / 预编译头（体积巨大，绝不能进 git）
+.vs/
+*.ipch
+*.suo
+*.vsidx
+*.VC.db
+
+# 编译产物
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.dll
