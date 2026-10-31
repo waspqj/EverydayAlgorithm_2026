@@ -55,3 +55,6 @@ bin-release/
 *.obj
 *.exe
 *.dll
+
+# Visual Studio IDE cache and build output
+x64/
